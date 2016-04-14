@@ -1,0 +1,34 @@
+﻿{
+  "version": "1.0.0-*",
+  "compilationOptions": {
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true
+  },
+
+  "dependencies": {
+    "NETStandard.Library": "1.5.0-rc2-*",
+    "StandardProgramMain": "1.0.0-*"
+  },
+
+  "frameworks": {
+    "netstandardapp1.5": {
+      "imports": [
+        "dnxcore50",
+        "portable-net45+win8"
+      ]
+    }
+  },
+
+  "content": [
+    "wwwroot"
+  ],
+
+  "exclude": [
+    "node_modules"
+  ],
+
+  "publishExclude": [
+    "**.user",
+    "**.vspscc"
+  ]
+}
